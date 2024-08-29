@@ -8,12 +8,30 @@
       <p class="mt-2 text-sm text-gray-600">Acesse sua conta</p>
     </div>
 
+   {% if form.errors %}
+      <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+        <strong class="font-bold">Ops! Algo deu errado.</strong>
+        <span class="block sm:inline">Por favor, revise os erros abaixo e tente novamente.</span>
+        <svg class="fill-current h-6 w-6 text-red-500 absolute top-0 bottom-0 right-0 px-4" role="button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 15a1 1 0 100-2 1 1 0 000 2zm-.93-5.36l.26-.16a1 1 0 00.19-.16l.12-.14c.08-.09.18-.25.29-.45a4.56 4.56 0 00.31-1.01V6a1 1 0 00-2 0v1c0 .38.06.78.2 1.13.1.26.23.48.35.64.12.16.22.26.28.3l.13.1-.37.22a1 1 0 00-.19.16 1.9 1.9 0 00-.28.47 3.07 3.07 0 00-.13.7v.75a1 1 0 002 0v-.68a2.36 2.36 0 01.16-.67 2.46 2.46 0 01.29-.44z"/></svg>
+        <div class="mt-2">
+          {% for field in form %}
+            {% for error in field.errors %}
+              <p class="text-red-500 text-sm mt-1">{{ error }}</p>
+            {% endfor %}
+          {% endfor %}
+          {% for error in form.non_field_errors %}
+            <p class="text-red-500 text-sm mt-1">{{ error }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
     <form method="post" action="{% url 'account_login' %}" class="space-y-6">
       {% csrf_token %}
 
       <div class="space-y-4">
         <div>
-          <label for="login" class="block text-sm font-medium text-gray-700">Email ou Username</label>
+          <label for="login" class="block text-sm font-medium text-gray-700">E-mail</label>
           <input type="text" id="login" name="login" value="{{ form.login.value }}" class="block w-full px-4 py-2 mt-1 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 sm:text-sm">
           {% if form.login.errors %}
             <p class="mt-2 text-sm text-red-600">{{ form.login.errors.0 }}</p>

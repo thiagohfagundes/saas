@@ -9,13 +9,16 @@
     {% include 'base/css.html' %}
 </head>
 <body>
-
-    {% include 'base/nav/navbar.html' %}
-
+    {% if user.is_authenticated %}
+        {% include 'base/nav/sidebar.html' %}
+    {% else %}
+        {% include 'base/nav/navbar.html' %}
+    {% endif %}
 
     {% block content %}
 
     {% endblock %}
+
     {% include 'base/js.html' %}
 </body>
 </html>

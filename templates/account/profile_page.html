@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="min-h-screen bg-gray-100 p-6 flex flex-col items-center">
+  <!-- Header -->
+  <div class="w-full max-w-4xl bg-white shadow-md rounded-lg p-6 flex flex-col items-center">
+    <!-- Profile Picture and Name -->
+    <div class="flex flex-col items-center">
+      <img src="https://via.placeholder.com/100" alt="User Profile" class="w-24 h-24 rounded-full shadow-md mb-4">
+      <h2 class="text-2xl font-bold text-gray-800">John Doe</h2>
+      <p class="text-gray-500">john.doe@example.com</p>
+    </div>
+
+    <!-- Tabs -->
+    <div class="mt-6 w-full">
+      <nav class="flex justify-center space-x-4 border-b-2 border-gray-200 pb-2">
+        <a href="#" class="text-gray-600 hover:text-gray-900 pb-2 transition border-b-2 border-transparent hover:border-gray-400">Overview</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 pb-2 transition border-b-2 border-transparent hover:border-gray-400">Settings</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 pb-2 transition border-b-2 border-transparent hover:border-gray-400">Security</a>
+        <a href="#" class="text-gray-600 hover:text-gray-900 pb-2 transition border-b-2 border-transparent hover:border-gray-400">Activity</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- User Information -->
+  <div class="w-full max-w-4xl mt-8 bg-white shadow-md rounded-lg p-6">
+    <h3 class="text-xl font-semibold text-gray-800 mb-4">Personal Information</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Full Name</label>
+        <input type="text" value="John Doe" class="mt-1 p-2 block w-full shadow-sm border border-gray-300 rounded-md">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Email Address</label>
+        <input type="email" value="john.doe@example.com" class="mt-1 p-2 block w-full shadow-sm border border-gray-300 rounded-md">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Phone Number</label>
+        <input type="tel" value="+123456789" class="mt-1 p-2 block w-full shadow-sm border border-gray-300 rounded-md">
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700">Address</label>
+        <input type="text" value="123 Main St, City, Country" class="mt-1 p-2 block w-full shadow-sm border border-gray-300 rounded-md">
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}

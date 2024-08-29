@@ -18,11 +18,13 @@ from django.contrib import admin
 from django.urls import path, include
 from assinaturas import views as subscriptions_views
 from checkouts import views as checkout_views
+from auth import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('agenda.urls')),
     path('contas/', include('allauth.urls')),
+    path('contas/perfil', views.perfil, name='perfil'),
     path("pricing/", subscriptions_views.subscription_price_view, name='pricing'),
     path("pricing/<str:interval>/", subscriptions_views.subscription_price_view, name='pricing_interval'),
     path("checkout/sub-price/<int:price_id>/",
