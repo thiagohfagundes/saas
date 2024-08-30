@@ -16,7 +16,7 @@ class Customer(models.Model):
     init_email_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
-        return f"{self.user.username}"
+        return f"{self.user.email}"
 
     def save(self, *args, **kwargs):
         if not self.stripe_id:

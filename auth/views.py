@@ -5,11 +5,11 @@ from django.contrib.auth.decorators import login_required
 def perfil(request):
     usuario = request.user
     cliente = usuario.customer
-    assinaturas = usuario.usersubscription
+    #assinaturas = usuario.usersubscription
 
     print(usuario)
     print(cliente)
-    print(assinaturas)
+    #print(assinaturas)
     contexto = {
         'usuario': usuario
     }
