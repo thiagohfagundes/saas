@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a704566-7304-4823-bf42-cbe1f551ad22" name="Changes" comment="preparação para Raiway">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/saas-django.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_08_2024_12_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_29_08_2024_12_18__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/migrations/0002_remove_subscription_permissions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assinaturas/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkouts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/migrations/0002_rename_cliente_customer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/clientes/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/management/commands/vendor_pull.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commando/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/billing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/date_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helpers/downloader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/railway.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saas/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/account_inactive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base_entrance.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base_manage.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base_manage_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base_manage_password.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/base_reauthenticate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/confirm_login_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/account_already_exists_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/account_already_exists_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/base_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/base_notification.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_changed_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_changed_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirm_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirm_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirmation_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirmation_signup_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_confirmation_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_deleted_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/email_deleted_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/login_code_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/login_code_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_changed_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_changed_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_reset_key_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_reset_key_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_reset_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_reset_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_set_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/password_set_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/unknown_account_message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email/unknown_account_subject.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email_change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/email_confirm.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/cannot_delete_primary_email.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/email_confirmation_failed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/email_confirmation_sent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/email_confirmed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/email_deleted.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/logged_in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/logged_out.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/login_code_sent.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/password_changed.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/password_set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/primary_email_set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/messages/unverified_primary_email.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_change.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_reset.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_reset_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_reset_from_key.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_reset_from_key_done.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/password_set.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/profile_page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/reauthenticate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/request_login_code.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/signup_closed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/snippets/already_logged_in.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/snippets/warn_no_email.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/verification_sent.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/verified_email_required.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/banner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/footer.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/lista.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/modal.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/popup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/components/table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/login_extra_css.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/nav/navbar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/nav/sidebar.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/subscriptions/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/subscriptions/snippets/pricing-card.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/subscriptions/success.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thiagohfagundes&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/thiagohfagundes/saas.git",
+    "accountId": "dbfc8660-0ee3-40a6-8e0b-70d275cb1b35"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2lCsbnNywuUkVsjkXHasywwG9Y7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pichau/PycharmProjects/saas-django/static/vendors&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\PycharmProjects\saas-django\static\vendors" />
+      <recent name="C:\Users\Pichau\PycharmProjects\saas-django\templates\base\nav" />
+      <recent name="C:\Users\Pichau\PycharmProjects\saas-django\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\PycharmProjects\saas-django\templates\account" />
+      <recent name="C:\Users\Pichau\PycharmProjects\saas-django\staticfiles" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-f5635417b835-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18968.29" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a704566-7304-4823-bf42-cbe1f551ad22" name="Changes" comment="" />
+      <created>1724695466334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724695466334</updated>
+    </task>
+    <task id="LOCAL-00001" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724698074671</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724698074671</updated>
+    </task>
+    <task id="LOCAL-00002" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724699255669</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724699255669</updated>
+    </task>
+    <task id="LOCAL-00003" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724699449183</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724699449183</updated>
+    </task>
+    <task id="LOCAL-00004" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724700269475</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724700269475</updated>
+    </task>
+    <task id="LOCAL-00005" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724760030007</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760030007</updated>
+    </task>
+    <task id="LOCAL-00006" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724760187700</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760187700</updated>
+    </task>
+    <task id="LOCAL-00007" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724760364867</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760364867</updated>
+    </task>
+    <task id="LOCAL-00008" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724760515083</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1724760515083</updated>
+    </task>
+    <task id="LOCAL-00009" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724761360704</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1724761360704</updated>
+    </task>
+    <task id="LOCAL-00010" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724761712522</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1724761712522</updated>
+    </task>
+    <task id="LOCAL-00011" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724762023479</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1724762023479</updated>
+    </task>
+    <task id="LOCAL-00012" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724762616247</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1724762616247</updated>
+    </task>
+    <task id="LOCAL-00013" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724850502944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724850502944</updated>
+    </task>
+    <task id="LOCAL-00014" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1724944663906</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1724944663906</updated>
+    </task>
+    <task id="LOCAL-00015" summary="preparação para Raiway">
+      <option name="closed" value="true" />
+      <created>1725028285543</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1725028285543</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="preparação para Raiway" />
+    <option name="LAST_COMMIT_MESSAGE" value="preparação para Raiway" />
+  </component>
+</project>
